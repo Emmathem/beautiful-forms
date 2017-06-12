@@ -17,13 +17,16 @@ body {
 a {
     text-decoration: none;
 }
+
 a:hover {
     color: $form-sleekblack;
     text-decoration: none;
 }
+
 nav {
     background: $form-white !important;
 }
+
 .header {
     top: 0;
     background: $form-white;
@@ -34,9 +37,9 @@ nav {
         color: $form-deepblue;
     }
 }
+
 .footer {
     bottom: 0;
-
     background: $form-white;
     position: absolute;
     width: 100%;
@@ -48,7 +51,59 @@ nav {
         color: $form-black;
     }
 }
+
 .login-container {
     margin: 13rem auto 0;
 }
 
+.title-header {
+    position: relative;
+    height: auto;
+    width: 100%;
+    h3 {
+        font-size: 1.2em;
+        padding: 10px 13px;
+        text-align: center;
+    }
+}
+
+
+/**the style for form2**/
+
+.login-container-2 {
+    margin: 6rem auto 0;
+    padding: 15px;
+    height: auto;
+    width: 100%;
+    border-color: $form-deepblue;
+    border: 1px solid transparent;
+    .form-control {
+        padding: 1.63em 1.24em;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        border-color: transparent;
+        height: 2.3em;
+        border: 1px solid $form-sleekblack;
+        border-left: none;
+    }
+    .input-group-addon {
+        background: none;
+        border-radius: 0;
+        border: 1px solid $form-sleekblack;
+        border-right: none;
+    }
+    .btn {
+        border-radius: 0px;
+    }
+    .btn-submit {
+        background: $form-white;
+        color: $form-black;
+        padding: 1em 1em;
+        width: 50%;
+        
+    }
+    .btn-submit:hover {
+            color: $form-pure-white;
+        background: $form-blue;
+        }
+}
