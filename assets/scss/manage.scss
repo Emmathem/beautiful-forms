@@ -1,0 +1,139 @@
+/* Developed by 
+* Falua Temitope Oyewole
+* Planet Nest
+* To overwrite the bootstrap form classes to suite my taste
+* 31-05-2017
+*/
+
+@import "_partials/color";
+@import "_partials/fonts";
+.manage-wrapper {
+    h4 {
+        font-size: 1.3em;
+        color: $form-black;
+    }
+    h3 {
+        font-size: 1.8em;
+        color: $form-deepblue;
+        font-weight: lighter;
+    }
+    span {
+        font-size: .9em;
+        color: $form-deepblue;
+        font-weight: lighter;
+    }
+    .panel .panel-dafault {
+        margin: 8px auto;
+        border: none;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+    }
+    .panel-primary {
+        border: none !important;
+    }
+    .fa {
+        padding-left: 8px;
+    }
+    .table {
+        border-top: none;
+        overflow-y: auto;
+    }
+    @media(width : 315px) {
+        .table {
+        width: 50%;
+    }
+    }
+    .panel-heading {
+        background: $form-white;
+        padding: 10px 15px !important;
+        color: #777;
+        text-align: center;
+        border: none;
+        border-radius: 0px;
+    }
+    .panel-title {
+        padding: 15px 10px;
+    }
+    .panel-body {
+        padding: 0px !important;
+    }
+    .form-control {
+        border-radius: 0px !important;
+        border: none;
+        border-bottom: 1px solid $form-blue;
+        padding: 1.4em .8em;
+        text-align: left;
+        height: 4.3rem;
+        box-shadow: none !important;
+        outline: none !important;
+        background: none !important;
+    }
+    .input-group-addon {
+        outline: none !important;
+        border-radius: 0px !important;
+        border-bottom: 1px solid $form-blue !important;
+        background: none;
+        border-top: none;
+        border-left: none;
+        padding: 0px 5px 2px 2px!important;
+        border: none;
+    }
+    .form-control:disabled {
+        background: #fff !important;
+    }
+    .pad {
+        padding-top: 4rem;
+    }
+    .btn {
+        border-radius: 0px;
+        border: none;
+        width: 50%;
+    }
+    .btn-sm {
+        min-width: 30px !important;
+    }
+    .btn-primary {
+        background: $form-blue;
+    }
+    .btn-success {
+        background: $form-deepblue;
+    }
+    .btn-danger {
+        background: $form-red;
+        min-width: 45px !important;
+    }
+    .alert {
+        padding: 1.32em 1.34em;
+    }
+    .alert-success {
+        color: $form-deepblue;
+    }
+    .alert-danger {
+        color: $form-red;
+    }
+    .fa-trash {
+        color: $form-red;
+    }
+    .fa-edit {
+        color: $form-deepblue;
+    }
+    .modal-dialog {
+        width: 360px !important;
+        position: relative;
+    }
+    .modal-content {
+        border: none;
+        border-radius: 0px !important;
+        height: 100%;
+        padding: 5px 8px;
+    }
+    .modal-footer {
+	border-top: 0px !important;
+}
+    .close {
+        font-size: 18px;
+        padding:0px;
+        margin-bottom: 7px;
+        margin-top: -20px;
+    }
+}

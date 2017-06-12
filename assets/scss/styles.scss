@@ -1,0 +1,45 @@
+/*
+* Developed by
+* Falua Temitope Oyewole
+* Web Developer, Planet Nest
+* faluatemitopeo@gmail.com
+* 12 - 06 - 2017
+*/
+
+@import "_partials/color";
+@import "_partials/fonts";
+body {
+    background: $form-pure-white;
+    @include font-opensans;
+    font-weight: lighter;
+}
+
+nav {
+    background: $form-white !important;
+}
+.header {
+    top: 0;
+    background: $form-white;
+    min-height: 3.4em;
+    position: relative;
+    width: 100%;
+    .container {
+        color: $form-deepblue;
+    }
+}
+.footer {
+    bottom: 0;
+    background: $form-white;
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    color: $form-deepblue;
+    .container-footer {
+        padding: 10px 15px;
+        text-align: center;
+        color: $form-black;
+    }
+}
+.login-container {
+    margin: 13rem auto 0;
+}
