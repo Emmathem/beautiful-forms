@@ -7,7 +7,7 @@
 
 @import "_partials/color";
 @import "_partials/fonts";
-.login-container {
+.manage-wrapper {
     h4 {
         font-size: 1.3em;
         color: $form-black;
@@ -87,13 +87,16 @@
     .btn {
         border-radius: 0px;
         border: none;
-        width: 50%;
+        width: auto;
+        font-weight: lighter;
+        padding: 15px 20px;
+        background: none;
     }
     .btn-sm {
         min-width: 30px !important;
     }
     .btn-primary {
-        background: $form-blue;
+        background: $form-ash;
     }
     .btn-success {
         background: $form-deepblue;
@@ -118,7 +121,7 @@
         color: $form-deepblue;
     }
     .modal-dialog {
-        width: 360px !important;
+        width: 500px !important;
         position: relative;
     }
     .modal-content {

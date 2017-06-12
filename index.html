@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin Login Form</title>
-    <link href="assets/css/styles.css" rel="stylesheet">
+    
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/fontawesome.min.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
     <link href="assets/css/manage.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400|Open+Sans:100,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
@@ -69,13 +70,45 @@
                             <label><input type="checkbox" name="remember"> Remember Me</label>
                         </div>
                         
-                            <div class="form-group btn-s">
-                                <button type="submit" class="btn btn-primary">Login</button>
+                        <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Login</button> <a class="text-center" href = "#" data-toggle="modal" data-target="#myModal">Forget Password</a>
                             </div>
                     </form>
                 </div>
             </div>
         </div>
+         <!--Change Password Modal Box-->
+    <!-- Modal -->
+    <div class="manage-wrapper">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Password Reset link will be sent to your email address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal change-pswd-form" action="" method="post">
+                        <div class="form-group" id="spwd">
+                            <label class="control-label sr-only">Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i> </span>
+                                <input type="email" class="form-control" placeholder="Enter your Registered Email Address" name="useremail">
+                               
+                            </div>
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="submit" name="changePassword" class="btn btn-success">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div><!--end of modal-->
     </div>
     <footer class="footer">
         <div class="container-footer">&copy; 2017. Your Company</div>
