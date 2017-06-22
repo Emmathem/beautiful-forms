@@ -68,6 +68,8 @@ nav {
 }
 
 
+
+
 /**the style for form2**/
 
 .login-container-2 {
@@ -100,11 +102,59 @@ nav {
         color: $form-black;
         padding: 1em 1em;
         width: 50%;
-        
     }
     .btn-submit:hover {
-            color: $form-pure-white;
+        color: $form-pure-white;
         background: $form-blue;
-        
-        }
+    }
+}
+
+
+
+/*form 3 take another container and form-style */
+
+.login-container-3 {
+    width: 80%;
+    margin: 3rem auto; //    border-color: transparent;
+    border: 1px solid $form-sleekblack;
+}
+
+
+/*Style for Form 4: textarea*/
+
+.login-container-4 {
+    margin: 6rem auto 0;
+    padding: 15px;
+    width: 100%;
+    border-color: $form-deepblue;
+    border: 1px solid transparent;
+    .form-control {
+        padding: 1.3em 1.24em;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        border-color: transparent;
+        border: 1px solid $form-sleekblack;
+    }
+    .form-control[input=textarea] {
+        height: 7.4em;
+    }
+    .input-group-addon {
+        background: none;
+        border-radius: 0;
+        border: 1px solid $form-sleekblack;
+        border-right: none;
+    }
+    .btn {
+        border-radius: 0px;
+    }
+    .btn-submit {
+        background: $form-white;
+        color: $form-black;
+        padding: 1em 1em;
+        width: 50%;
+    }
+    .btn-submit:hover {
+        color: $form-pure-white;
+        background: $form-blue;
+    }
 }
